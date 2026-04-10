@@ -23,3 +23,14 @@ python3 scripts/eval/eval_showdown_agent.py --model_path /path/to/merged --sampl
 ```
 
 Metrics match the notebook mini-eval (`showdown_agent_eval.eval_showdown_agent_batch`).
+
+## Push to GitHub (maintainer)
+
+From this repository root, after creating an **empty** public (or internal) repo on GitHub:
+
+```bash
+git remote add origin https://github.com/<org>/<repo>.git
+git push -u origin main
+```
+
+Replace the URL with SSH if your team requires it (`git@github.com:<org>/<repo>.git`).
