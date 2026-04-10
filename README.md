@@ -7,7 +7,6 @@ End-to-end **Jupyter** walkthrough for fine-tuning **`Qwen/Qwen3-4B`** with **Un
 | Path | Purpose |
 |------|---------|
 | `pokemon_llm_agent_unsloth_rocm_tutorial.ipynb` | Main tutorial (streaming data, short SFT, inference, legality checks, mini-eval) |
-| `pokemon_agent_demo_notebook_v2.ipynb` | Companion / pointers to the main notebook |
 | `scripts/eval/showdown_agent_eval.py` | Shared metrics, log parsing, `build_test_samples`, batch eval |
 | `scripts/eval/eval_showdown_agent.py` | CLI evaluation for merged checkpoints |
 | `docs/AMD_HUB_SUBMISSION.md` | Hub submission notes + Confluence guideline link |

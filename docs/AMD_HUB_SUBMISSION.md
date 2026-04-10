@@ -25,8 +25,6 @@ If that page requires VPN, use the same checklist your team uses for other Hub t
 
 1. Open `pokemon_llm_agent_unsloth_rocm_tutorial.ipynb` from the **repository root** (so `scripts/eval/showdown_agent_eval.py` resolves in §7).
 2. Complete environment setup cells (ROCm + Unsloth per your standard image).
-3. Optional companion: `pokemon_agent_demo_notebook_v2.ipynb`.
-
 ## Full checkpoint evaluation
 
 From repo root, after training or with a merged model path:
