@@ -2,6 +2,12 @@
 
 This folder is a **minimal publishable slice** of the Pokémon Showdown LLM agent tutorial (Unsloth + ROCm).
 
+**Authors:** Yue Yuan, Bill He.
+
+## Official workflow (not a generic “fork”)
+
+Per Hub guidelines, tutorials land in the internal repo **`ROCm/gpuaidev-internal`**: clone it (org membership required), branch as `tutorial/<short-descriptor>`, add the `.ipynb` where maintainers specify, update the **root `README.md`** and **`docs/sphinx/_toc.yml.in`**, push, open a **PR** to `main`, and add **Mahdi-CV** as reviewer. That is **branch + PR inside the org repo**, not necessarily a personal fork—use whatever access model your ROCm org uses.
+
 ## Internal guidelineContribution and publication process (Confluence, AMD network):
 
 https://amd.atlassian.net/wiki/spaces/AIG/pages/835501680/ROCm+AI+Developer+Hub+Tutorials+Contribution+and+Publication+Guidelines

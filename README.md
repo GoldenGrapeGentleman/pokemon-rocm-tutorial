@@ -37,6 +37,11 @@ The tutorial reports **valid format**, **type match**, and **exact match** using
 
 Tutorial source code in this repository is released under **Apache-2.0** (see `LICENSE`). Third-party models, datasets, and Unsloth/PyTorch remain under their respective licenses.
 
+## Authors
+
+- **Yue Yuan** (Yueyuan; [GoldenGrapeGentleman](https://github.com/GoldenGrapeGentleman))
+- **Bill He**
+
 ## Acknowledgements
 
 - [Unsloth](https://github.com/unslothai/unsloth), [TRL](https://github.com/huggingface/trl), [Transformers](https://github.com/huggingface/transformers), [Qwen](https://huggingface.co/Qwen), Pokémon Showdown.
