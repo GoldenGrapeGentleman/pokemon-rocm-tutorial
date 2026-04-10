@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training / checkpoints (not part of this tutorial repo)
+outputs/
+model_output*/
+*.safetensors
+*.bin
+*.pt
+*.gguf
+
+# Local experiment artifacts
+*.log
+eval_*.json
+!docs/**

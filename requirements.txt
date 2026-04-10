@@ -1,0 +1,8 @@
+# Install PyTorch for your platform (ROCm wheel or conda) before the rest.
+# See: https://pytorch.org/get-started/locally/
+datasets>=2.14.0
+transformers>=4.44.0
+accelerate>=0.33.0
+trl>=0.9.0
+# Unsloth: follow ROCm-specific install from https://github.com/unslothai/unsloth
+# pip install unsloth  # or install from source per your stack
