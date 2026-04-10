@@ -2,11 +2,18 @@
 
 This folder is a **minimal publishable slice** of the Pokémon Showdown LLM agent tutorial (Unsloth + ROCm).
 
-**Authors:** Yue Yuan, Bill He.
+**Authors:** Yue Yuan ([@yueyuan](https://github.com/yueyuan), yueyuan@amd.com), Bill He ([@billishyahao](https://github.com/billishyahao), bill.he@amd.com).
+
+If you publish this slice to a personal or team GitHub repo, you can add the following trailers to a commit message so GitHub lists both authors:
+
+```text
+Co-authored-by: billishyahao <bill.he@amd.com>
+Co-authored-by: yueyuan <yueyuan@amd.com>
+```
 
 ## Official workflow (not a generic “fork”)
 
-Per Hub guidelines, tutorials land in the internal repo **`ROCm/gpuaidev-internal`**: clone it (org membership required), branch as `tutorial/<short-descriptor>`, add the `.ipynb` where maintainers specify, update the **root `README.md`** and **`docs/sphinx/_toc.yml.in`**, push, open a **PR** to `main`, and add **Mahdi-CV** as reviewer. That is **branch + PR inside the org repo**, not necessarily a personal fork—use whatever access model your ROCm org uses.
+Per Hub guidelines, tutorials land in the internal repo **`ROCm/gpuaidev-internal`**: clone it (**ROCm org members** can work directly from a feature branch), use `tutorial/<short-descriptor>`, add the `.ipynb` where maintainers specify, update the **root `README.md`** and **`docs/sphinx/_toc.yml.in`**, push, open a **PR** to `main`, and add **Mahdi-CV** as reviewer.
 
 ## Internal guidelineContribution and publication process (Confluence, AMD network):
 

@@ -39,8 +39,8 @@ Tutorial source code in this repository is released under **Apache-2.0** (see `L
 
 ## Authors
 
-- **Yue Yuan** (Yueyuan; [GoldenGrapeGentleman](https://github.com/GoldenGrapeGentleman))
-- **Bill He**
+- **Yue Yuan** — [@yueyuan](https://github.com/yueyuan) · yueyuan@amd.com
+- **Bill He** — [@billishyahao](https://github.com/billishyahao) · bill.he@amd.com
 
 ## Acknowledgements
 
