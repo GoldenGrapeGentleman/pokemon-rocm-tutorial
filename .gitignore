@@ -19,4 +19,3 @@ model_output*/
 # Local experiment artifacts
 *.log
 eval_*.json
-!docs/**
