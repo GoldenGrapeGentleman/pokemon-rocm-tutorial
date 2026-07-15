@@ -23,8 +23,10 @@ If that page requires VPN, use the same checklist your team uses for other Hub t
 
 ## What reviewers should run
 
-1. Open `pokemon_llm_agent_unsloth_rocm_tutorial.ipynb` from the **repository root** (so `scripts/eval/showdown_agent_eval.py` resolves in §7).
-2. Complete environment setup cells (ROCm + Unsloth per your standard image).
+1. Add **only** `pokemon_llm_agent_unsloth_rocm_tutorial.ipynb` to `gpuaidev-internal`/`gpuaidev` intake as directed by Hub maintainers (no `scripts/` folder in docs — static HTML readers cannot browse that tree).
+2. Keep `showdown_agent_eval.py` synchronized in **`pokemon-rocm-tutorial`** (canonical eval repo). The notebook’s **§0** shallow-clones that repo (`POKEMON_ROCM_EXTRAS_REPO` overrides the default Git URL).
+3. Complete environment cells on the **published ROCm + PyTorch** image (**ROCm 7.2**, **HIP-enabled PyTorch ≈ 2.10**) so Unsloth’s `torch.cuda.is_available()` check passes (`torch.version.hip` must not be `None`).
+
 ## Full checkpoint evaluation
 
 From repo root, after training or with a merged model path:
